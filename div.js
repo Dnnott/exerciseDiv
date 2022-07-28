@@ -11,19 +11,19 @@ container.appendChild(content);
 const p1 = document.createElement('p');
 p1.classList.add('p1');
 p1.textContent = 'Hey Im red!';
-p1.style.cssText = 'red';
+p.style.cssText = 'red';
 content.appendChild(p1);
 
 // h3
 const h3_1 = document.createElement('h3');
 h3_1.classList.add('h3');
 h3_1.textContent = 'Im blue h3!';
-h3_1.style.cssText = 'blue';
+h3.style.cssText = 'blue';
 content.appendChild(h3_1);
 
 // div
 const div1 = document.createElement('div');
-div1.style.background = 'pink;border:1px solid black;';
+div.style.background = 'pink;border:1px solid black;';
 div1.classList.add('div1'); 
 content.appendChild(div1);
 
