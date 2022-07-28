@@ -7,17 +7,12 @@ content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 container.appendChild(content);
 
-//content2
-const content2 = document.createElement('div');
-content2.classList.add('content2');
-content2.textContent = 'This is the glorious text-content!';
-container.appendChild(content2);
-
-//p
+//p1
 const p1 = document.createElement('p');
-content.appendChild(p2);
-p1.textContent = 'Hey Im red!';
-p1.style.cssText = 'red';
+p1.classList.add('p');
+p1.textContent = 'This is the glorious text-content!';
+container.appendChild(p1);
+
 // h3
 const h3_1 = document.createElement('h3');
 h3_1.textContent = 'Im blue h3!';
