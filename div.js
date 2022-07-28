@@ -12,7 +12,7 @@ const p1 = document.createElement('p');
 p1.classList.add('p');
 p1.textContent = 'Hey Im red!';
 p1.style.cssText = 'red';
-container.appendChild(p1);
+content.appendChild(p1);
 
 // h3
 const h3_1 = document.createElement('h3');
