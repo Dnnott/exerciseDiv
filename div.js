@@ -8,6 +8,7 @@ container.appendChild(content);
 
 //p
 const p1 = document.createElement('p');
+p1.classList.add('p1');
 content.appendChild(p2);
 p1.textContent = 'Hey Im red!';
 p1.style.cssText = 'red';
