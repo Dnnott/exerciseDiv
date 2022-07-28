@@ -11,7 +11,7 @@ container.appendChild(content);
 const p1 = document.createElement('p');
 p1.classList.add('p1');
 p1.textContent = 'Hey Im red!';
-p1.style.cssText = 'color: blue;';
+p1.style.cssText = 'color: red;';
 content.appendChild(p1);
 
 // h3
@@ -23,7 +23,7 @@ content.appendChild(h3_1);
 
 // div
 const div1 = document.createElement('div');
-div.style.background = 'pink;border:1px solid black;';
+div1.setAttribute('style', 'color: blue; background: pink;'); 
 div1.classList.add('div1'); 
 content.appendChild(div1);
 
