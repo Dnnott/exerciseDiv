@@ -25,6 +25,7 @@ const div1 = document.createElement('div');
 div1.setAttribute('background: pink;border:1px solid black;');
 div1.classList.add('div1'); 
 content.appendChild(div1);
+
     //h1
     const h1_1 = document.createElement('h1');
     h1_1.classList.add('h1_1');
