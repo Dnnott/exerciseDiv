@@ -22,7 +22,7 @@ content.appendChild(h3_1);
 
 // div
 const div1 = document.createElement('div');
-div1.setAttribute('background: pink;border:1px solid black;');
+div1.style.background = 'pink;border:1px solid black;';
 div1.classList.add('div1'); 
 content.appendChild(div1);
 
