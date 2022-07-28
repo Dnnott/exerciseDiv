@@ -1,14 +1,20 @@
+//data from index
 const container = document.querySelector('#container');
 
+//content
 const content = document.createElement('div');
 content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
-
 container.appendChild(content);
+
+//content2
+const content2 = document.createElement('div');
+content2.classList.add('content2');
+content2.textContent = 'This is the glorious text-content!';
+container.appendChild(content2);
 
 //p
 const p1 = document.createElement('p');
-p1.classList.add('p1');
 content.appendChild(p2);
 p1.textContent = 'Hey Im red!';
 p1.style.cssText = 'red';
