@@ -3,6 +3,8 @@ const container = document.querySelector('#container');
 const content = document.createElement('div');
 content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
+
+container.appendChild(content);
 //p
 const p1 = document.createElement('p');
 p1.textContent = 'Hey Im red!';
@@ -15,10 +17,11 @@ h3_1.style.cssText = 'blue';
 const div1 = document.createElement('div');
 div1.setAttribute('style', 'background: pink;border:1px solid black;');
 div1.classList.add('content'); 
-var h1_1 = document.createElement("div"); 
-div1.appendChild(h1_1);
-var p2 = document.createElement("p");
-div1.appendChild(p2);
-h1_1.textContent = 'Im a div!';
-p2.textContent = 'ME TOO!';
-container.appendChild(content);
+
+    var h1_1 = document.createElement("div"); 
+    div1.appendChild(h1_1);
+    var p2 = document.createElement("p");
+    div1.appendChild(p2);
+    h1_1.textContent = 'Im a div!';
+    p2.textContent = 'ME TOO!';
+
