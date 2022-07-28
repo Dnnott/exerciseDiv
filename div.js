@@ -10,7 +10,8 @@ container.appendChild(content);
 //p1
 const p1 = document.createElement('p');
 p1.classList.add('p');
-p1.textContent = 'This is the glorious text-content!';
+p1.textContent = 'Hey Im red!';
+p1.style.cssText = 'red';
 container.appendChild(p1);
 
 // h3
