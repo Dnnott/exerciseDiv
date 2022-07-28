@@ -16,6 +16,7 @@ content.appendChild(p1);
 
 // h3
 const h3_1 = document.createElement('h3');
+h3_1.classList.add('h3');
 h3_1.textContent = 'Im blue h3!';
 h3_1.style.cssText = 'blue';
 content.appendChild(h3_1);
