@@ -17,9 +17,10 @@ h3_1.style.cssText = 'blue';
 const div1 = document.createElement('div');
 div1.setAttribute('style', 'background: pink;border:1px solid black;');
 div1.classList.add('content'); 
-
+    //h1
     var h1_1 = document.createElement("div"); 
     div1.appendChild(h1_1);
+    //p
     var p2 = document.createElement("p");
     div1.appendChild(p2);
     h1_1.textContent = 'Im a div!';
