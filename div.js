@@ -44,3 +44,7 @@ content.appendChild(div1);
     h1_1.textContent = 'Im a div!';
     p2.textContent = 'ME TOO!';
 
+//button
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
+
